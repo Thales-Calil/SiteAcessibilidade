@@ -1,0 +1,99 @@
+body {
+    background-color: white;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    font-size: larger;
+}
+
+nav .ModoNoturnoBtn {
+    padding-left: 100px;
+    cursor: pointer;
+}
+
+a.modo-noturno{
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font: larger;
+}
+
+p {
+    font-size: larger;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.img-home {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+body.modo-noturno{
+    background-color: black;
+    color: white;
+}
+
+div.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.nome {
+    margin-left: 17px;
+}
+
+input[type="textbox"] {
+    width: 300px;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
