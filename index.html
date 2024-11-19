@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <nav class="modo-noturno">
+        <a href="index.html">Início</a>
+        <a href="dificuldades.html">Dificuldades</a>
+        <a href="legislacao.html">Leis e Direitos</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a class="contato" href="contato.html">Contato</a>
+        <button id="ModoNoturnoBtn" value="1" onclick="ModoNoturno()" alt="Botão para ativar/desativar Modo Noturno">🌑</button>
+    </nav>
+    <div class="div1">
+        <br><br><h1>Acessibilidade em Sites</h1>
+        <p>A acessibilidade de sites é fundamental para garantir que todos os usuários, independentemente de suas habilidades, possam navegar e interagir com o conteúdo online de maneira eficaz e eficiente. Sites acessíveis são projetados para serem utilizados por pessoas com diversas limitações, como deficiências visuais, auditivas, motoras e cognitivas.</p>        
+        <img class="img-home" src="../imagens/Acessibilidade-na-Web.jpg" alt="Imagem do Jardim Botânico">
+    </div>
+    <h3>Tipos de deficiência:</h3>
+    <div class="div2">
+        <h1>Deficiência Visual</h1>
+        <p>Pessoas com deficiência visual, como cegueira ou baixa visão, precisam de recursos como leitores de tela, contrastes de cores adequados, e navegação por teclado. O uso de descrições alternativas para imagens e a possibilidade de ajustar o tamanho do texto são cruciais.</p>
+    </div>
+    <div class="div2">
+        <h1>Deficiência Auditiva</h1>
+        <p>Indivíduos com perda auditiva ou surdez se beneficiam de legendas, transcrições de áudio e vídeos, além de sinais visuais que substituam ou complementem os sons importantes nas páginas.</p>
+    </div>
+    <div class="div2">
+        <h1>Deficiência Motora</h1>
+        <p>Aqueles com deficiência motora podem ter dificuldades para utilizar um mouse ou teclado da forma convencional. Tecnologias como comandos de voz, navegação por teclado e interfaces adaptativas são fundamentais para facilitar a interação.</p>
+    <div class="div2">
+        <h1>Deficiência Psíquica</h1>
+        <p>Indivíduos com transtornos psíquicos podem precisar de um ambiente online mais tranquilo e com menos estímulos, além de layouts que permitam uma navegação sem sobrecarga de informações.</p>
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <footer>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
